@@ -121,6 +121,24 @@
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ghelp.Datos\Ghelp.Datos.csproj">
+      <Project>{4f8de61a-95a4-41f4-acd0-d45fcbe64aa3}</Project>
+      <Name>Ghelp.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ghelp.Entidades\Ghelp.Entidades.csproj">
+      <Project>{fea65516-d0d5-4ee3-934a-084c2df1cf38}</Project>
+      <Name>Ghelp.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ghelp.Logica\Ghelp.Logica.csproj">
+      <Project>{9acbf704-c008-4585-ac41-6d6ed9ba60ec}</Project>
+      <Name>Ghelp.Logica</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ghelp.ViewModels\Ghelp.ViewModels.csproj">
+      <Project>{28bc9ca5-31f8-4924-84f2-08c7ade60741}</Project>
+      <Name>Ghelp.ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
